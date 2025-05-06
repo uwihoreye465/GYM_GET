@@ -8,40 +8,59 @@
 </head>
 <body>
 
-  <header class="site-header">
-    <div class="logo">FeWo-direkt<sup>®</sup></div>
-    <nav class="main-nav">
-      <a href="#">App herunterladen</a>
-      <a href="#">Reiseplaner</a>
-      <a href="#">Unterkunft registrieren</a>
-      <a href="#"> Hilfe</a>
-      <a href="#">Meine Reisen</a>
-      <a href="#">Anmelden</a>
-    </nav>
-  </header>
-  <section class="hero">
-    <div class="hero-text">
-      <h1>Die ganze Unterkunft nur für dich</h1>
-      
-    </div>
-    
-  </section><br><br>
-  <div class="login-prompt-banner">
-    <div class="icon-container">
-      <svg class="message-icon" viewBox="0 0 24 24">
-        <path d="M20,2H4C2.9,2,2,2.9,2,4v18l4-4h14c1.1,0,2-0.9,2-2V4C22,2.9,21.1,2,20,2z M19,14H5l-1,1V5c0-0.5,0.4-1,1-1h14c0.5,0,1,0.4,1,1v8C20,13.6,19.6,14,19,14z"/>
-      </svg>
-    </div>
-    <div class="login-text">
-        Melde dich an, um dem Gastgeber eine Nachricht zu schicken und mehr Details zu einer Unterkunft zu erhalten.
-    </div>
-    <button class="login-button">Anmelden</button>
-  </div>
-  <main class="main-content">
-    <section class="feature">
-      <h2> Finde Unterkünfte ganz nach deinem Geschmack</h2>
+     <!-- Header -->
+     <header>
+        <a href="#" class="logo">FeWo-direkt®</a>
+       <!-- Include Font Awesome in the <head> of your HTML -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<nav class="nav-links">
+  <a href="#"> App herunterladen<i class="fas fa-download"></i></a>
+  <a href="#">Reiseplaner</a>
+  <a href="#">Unterkunft Registrieren</a>
+  <a href="#">Hilfe</a>
+  <a href="#">Meine Reisen</a>
+  <a href="#">Anmelden</a>
+</nav>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>So geht Urlaub.</h1>
+        </div>
+
+        <!-- Search Box -->
+        <div class="search-container">
+            <div class="search-box">
+                <div class="icon">📍</div>
+                <input type="text" placeholder="Wo soll's hingehen?">
+            </div>
+            <div class="search-box">
+                <div>
+                    <span class="label">Daten</span>
+                    <div class="value">17. Mai - 31. Mai</div>
+                </div>
+            </div>
+            <div class="search-box">
+                <div>
+                    <span class="label">Gäste</span>
+                    <div class="value">2 Reisende</div>
+                </div>
+            </div>
+            <button class="search-button">Suchen</button>
+        </div>
     </section>
 
+    <!-- Login Notification -->
+    <div class="login-notification">
+        <div class="login-notification-text">
+            <div class="login-notification-icon">💬</div>
+            <div>Melde dich an, um dem Gastgeber eine Nachricht zu schicken und mehr Details zu einer Unterkunft zu erhalten.</div>
+        </div>
+        <button class="login-button">Anmelden</button>
+    </div>
     <section class="grid">
         <div class="property-types-container">
             <div class="property-type-card">
