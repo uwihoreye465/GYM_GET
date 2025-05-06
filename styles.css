@@ -1,101 +1,40 @@
-/* Reset */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: #f4f4f4;
-    color: #333;
-}
-
-header {
-    background-color: #011f5b;
-    color: white;
-    padding: 20px;
+    background-color:white;
+    color: black;
+    padding-bottom: 100px; 
+  }
+  
+  .site-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-header .logo {
+    padding: 1rem 2rem;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  .logo {
     font-size: 1.5rem;
     font-weight: bold;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-}
-
-nav a {
-    color: white;
+    color: #0070e0;
+  }
+  
+  .main-nav a {
+    margin-left: 1.5rem;
     text-decoration: none;
-    font-weight: 500;
-}
-
-.hero {
-    background: url('https://www.upenn.edu/sites/default/files/styles/hero_desktop/public/2022-09/UPenn_Exterior_BANNER.jpg') no-repeat center center/cover;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-}
-
-.hero h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-.hero p {
-    font-size: 1.2rem;
-    margin-bottom: 20px;
-}
-
-.hero .btn {
-    background-color: #879900;
-    color: white;
-    padding: 12px 25px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-}
-
-.cards {
-    display: flex;
-    justify-content: space-around;
-    padding: 40px 20px;
-    background-color: white;
-}
-
-.card {
-    background-color: #eee;
-    padding: 20px;
-    width: 30%;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
-.card h2 {
-    margin-bottom: 10px;
-}
-
-.card a {
-    display: inline-block;
-    margin-top: 15px;
-    color: #011f5b;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-footer {
-    text-align: center;
-    background-color: #011f5b;
-    color: white;
-    padding: 15px 0;
-    margin-top: 40px;
-}
+    color: #222;
+    font-size: 0.95rem;
+  }
+  
+  
